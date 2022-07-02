@@ -120,6 +120,7 @@ namespace QuanLyBenhVien
             this.txt_pass.Margin = new System.Windows.Forms.Padding(8, 3, 8, 3);
             this.txt_pass.MinimumSize = new System.Drawing.Size(100, 35);
             this.txt_pass.Name = "txt_pass";
+            this.txt_pass.PasswordChar = '*';
             this.txt_pass.Size = new System.Drawing.Size(224, 35);
             this.txt_pass.TabIndex = 5;
             // 

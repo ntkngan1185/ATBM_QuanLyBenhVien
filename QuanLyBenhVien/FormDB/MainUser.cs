@@ -77,7 +77,7 @@ namespace QuanLyBenhVien.FormDB
 
         }
 
-        private void btnAddUser_Click(object sender, EventArgs e)
+        private void btnAddUser_Click(object sender, EventArgs e)       
         {
             OpenChildForm(new FormDB.User.FormAddUser(this._user, this._pass), null);
         }
@@ -115,6 +115,7 @@ namespace QuanLyBenhVien.FormDB
 
         private void btnListRole_Click(object sender, EventArgs e)
         {
+            
             OpenChildForm(new FormDB.ShowListRoleForm(this._user, this._pass), null);
 
         }

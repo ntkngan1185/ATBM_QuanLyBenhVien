@@ -130,6 +130,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.lbl_title);
             this.Name = "DetailTable";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DetailTable";
             ((System.ComponentModel.ISupportInitialize)(this.dg_detailtable)).EndInit();
             this.ResumeLayout(false);

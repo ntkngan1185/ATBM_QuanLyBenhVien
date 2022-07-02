@@ -33,6 +33,8 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.btn_userrole = new System.Windows.Forms.Button();
             this.btn_database = new System.Windows.Forms.Button();
+            this.btn_Audit = new System.Windows.Forms.Button();
+            this.btn_fga = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -61,6 +63,8 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.btn_fga);
+            this.panel2.Controls.Add(this.btn_Audit);
             this.panel2.Controls.Add(this.btn_userrole);
             this.panel2.Controls.Add(this.btn_database);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -76,7 +80,7 @@
             this.btn_userrole.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_userrole.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_userrole.ForeColor = System.Drawing.Color.White;
-            this.btn_userrole.Location = new System.Drawing.Point(341, 211);
+            this.btn_userrole.Location = new System.Drawing.Point(320, 115);
             this.btn_userrole.Name = "btn_userrole";
             this.btn_userrole.Size = new System.Drawing.Size(209, 47);
             this.btn_userrole.TabIndex = 4;
@@ -91,13 +95,43 @@
             this.btn_database.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_database.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_database.ForeColor = System.Drawing.Color.White;
-            this.btn_database.Location = new System.Drawing.Point(341, 137);
+            this.btn_database.Location = new System.Drawing.Point(320, 41);
             this.btn_database.Name = "btn_database";
             this.btn_database.Size = new System.Drawing.Size(209, 47);
             this.btn_database.TabIndex = 3;
             this.btn_database.Text = "Quản lý Database";
             this.btn_database.UseVisualStyleBackColor = false;
             this.btn_database.Click += new System.EventHandler(this.btn_database_Click);
+            // 
+            // btn_Audit
+            // 
+            this.btn_Audit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(98)))), ((int)(((byte)(90)))));
+            this.btn_Audit.FlatAppearance.BorderSize = 0;
+            this.btn_Audit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Audit.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Audit.ForeColor = System.Drawing.Color.White;
+            this.btn_Audit.Location = new System.Drawing.Point(320, 196);
+            this.btn_Audit.Name = "btn_Audit";
+            this.btn_Audit.Size = new System.Drawing.Size(209, 47);
+            this.btn_Audit.TabIndex = 5;
+            this.btn_Audit.Text = "Standard Audit";
+            this.btn_Audit.UseVisualStyleBackColor = false;
+            this.btn_Audit.Click += new System.EventHandler(this.btn_Audit_Click);
+            // 
+            // btn_fga
+            // 
+            this.btn_fga.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(98)))), ((int)(((byte)(90)))));
+            this.btn_fga.FlatAppearance.BorderSize = 0;
+            this.btn_fga.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_fga.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_fga.ForeColor = System.Drawing.Color.White;
+            this.btn_fga.Location = new System.Drawing.Point(320, 273);
+            this.btn_fga.Name = "btn_fga";
+            this.btn_fga.Size = new System.Drawing.Size(209, 47);
+            this.btn_fga.TabIndex = 6;
+            this.btn_fga.Text = "FGA ";
+            this.btn_fga.UseVisualStyleBackColor = false;
+            this.btn_fga.Click += new System.EventHandler(this.btn_fga_Click);
             // 
             // MainScreen
             // 
@@ -124,5 +158,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btn_userrole;
         private System.Windows.Forms.Button btn_database;
+        private System.Windows.Forms.Button btn_Audit;
+        private System.Windows.Forms.Button btn_fga;
     }
 }

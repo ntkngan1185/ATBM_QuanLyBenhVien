@@ -33,6 +33,7 @@ namespace QuanLyBenhVien.FormDB
             this.panel1 = new System.Windows.Forms.Panel();
             this.panelUChildForm = new System.Windows.Forms.Panel();
             this.panelUIMenu = new System.Windows.Forms.Panel();
+            this.btn_back = new System.Windows.Forms.Button();
             this.btnListRole = new System.Windows.Forms.Button();
             this.btnGrantRole = new System.Windows.Forms.Button();
             this.btnAddRole = new System.Windows.Forms.Button();
@@ -41,7 +42,6 @@ namespace QuanLyBenhVien.FormDB
             this.btnGrantUser = new System.Windows.Forms.Button();
             this.btnAddUser = new System.Windows.Forms.Button();
             this.btnRole = new System.Windows.Forms.Button();
-            this.btn_back = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panelUIMenu.SuspendLayout();
             this.SuspendLayout();
@@ -70,7 +70,7 @@ namespace QuanLyBenhVien.FormDB
             // 
             // panelUIMenu
             // 
-            this.panelUIMenu.BackColor = System.Drawing.Color.Teal;
+            this.panelUIMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(90)))), ((int)(((byte)(82)))));
             this.panelUIMenu.Controls.Add(this.btn_back);
             this.panelUIMenu.Controls.Add(this.btnListRole);
             this.panelUIMenu.Controls.Add(this.btnGrantRole);
@@ -88,9 +88,22 @@ namespace QuanLyBenhVien.FormDB
             this.panelUIMenu.Size = new System.Drawing.Size(193, 501);
             this.panelUIMenu.TabIndex = 0;
             // 
+            // btn_back
+            // 
+            this.btn_back.BackColor = System.Drawing.Color.Transparent;
+            this.btn_back.FlatAppearance.BorderSize = 0;
+            this.btn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_back.Image = ((System.Drawing.Image)(resources.GetObject("btn_back.Image")));
+            this.btn_back.Location = new System.Drawing.Point(16, 22);
+            this.btn_back.Name = "btn_back";
+            this.btn_back.Size = new System.Drawing.Size(55, 29);
+            this.btn_back.TabIndex = 50;
+            this.btn_back.UseVisualStyleBackColor = false;
+            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
+            // 
             // btnListRole
             // 
-            this.btnListRole.BackColor = System.Drawing.Color.Teal;
+            this.btnListRole.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(90)))), ((int)(((byte)(82)))));
             this.btnListRole.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnListRole.FlatAppearance.BorderSize = 0;
             this.btnListRole.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -108,7 +121,7 @@ namespace QuanLyBenhVien.FormDB
             // 
             // btnGrantRole
             // 
-            this.btnGrantRole.BackColor = System.Drawing.Color.Teal;
+            this.btnGrantRole.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(90)))), ((int)(((byte)(82)))));
             this.btnGrantRole.FlatAppearance.BorderSize = 0;
             this.btnGrantRole.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGrantRole.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
@@ -125,7 +138,7 @@ namespace QuanLyBenhVien.FormDB
             // 
             // btnAddRole
             // 
-            this.btnAddRole.BackColor = System.Drawing.Color.Teal;
+            this.btnAddRole.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(90)))), ((int)(((byte)(82)))));
             this.btnAddRole.FlatAppearance.BorderSize = 0;
             this.btnAddRole.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddRole.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
@@ -142,7 +155,7 @@ namespace QuanLyBenhVien.FormDB
             // 
             // btnListUser
             // 
-            this.btnListUser.BackColor = System.Drawing.Color.Teal;
+            this.btnListUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(90)))), ((int)(((byte)(82)))));
             this.btnListUser.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnListUser.FlatAppearance.BorderSize = 0;
             this.btnListUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -160,7 +173,7 @@ namespace QuanLyBenhVien.FormDB
             // 
             // btnUser
             // 
-            this.btnUser.BackColor = System.Drawing.Color.Teal;
+            this.btnUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(90)))), ((int)(((byte)(82)))));
             this.btnUser.FlatAppearance.BorderSize = 0;
             this.btnUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUser.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
@@ -176,7 +189,7 @@ namespace QuanLyBenhVien.FormDB
             // 
             // btnGrantUser
             // 
-            this.btnGrantUser.BackColor = System.Drawing.Color.Teal;
+            this.btnGrantUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(90)))), ((int)(((byte)(82)))));
             this.btnGrantUser.FlatAppearance.BorderSize = 0;
             this.btnGrantUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGrantUser.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
@@ -193,7 +206,7 @@ namespace QuanLyBenhVien.FormDB
             // 
             // btnAddUser
             // 
-            this.btnAddUser.BackColor = System.Drawing.Color.Teal;
+            this.btnAddUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(90)))), ((int)(((byte)(82)))));
             this.btnAddUser.FlatAppearance.BorderSize = 0;
             this.btnAddUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddUser.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
@@ -210,7 +223,7 @@ namespace QuanLyBenhVien.FormDB
             // 
             // btnRole
             // 
-            this.btnRole.BackColor = System.Drawing.Color.Teal;
+            this.btnRole.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(90)))), ((int)(((byte)(82)))));
             this.btnRole.FlatAppearance.BorderSize = 0;
             this.btnRole.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRole.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
@@ -224,23 +237,11 @@ namespace QuanLyBenhVien.FormDB
             this.btnRole.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRole.UseVisualStyleBackColor = false;
             // 
-            // btn_back
-            // 
-            this.btn_back.BackColor = System.Drawing.Color.Transparent;
-            this.btn_back.FlatAppearance.BorderSize = 0;
-            this.btn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_back.Image = ((System.Drawing.Image)(resources.GetObject("btn_back.Image")));
-            this.btn_back.Location = new System.Drawing.Point(16, 22);
-            this.btn_back.Name = "btn_back";
-            this.btn_back.Size = new System.Drawing.Size(55, 29);
-            this.btn_back.TabIndex = 50;
-            this.btn_back.UseVisualStyleBackColor = false;
-            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
-            // 
             // MainUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(838, 501);
             this.Controls.Add(this.panel1);
             this.Name = "MainUser";

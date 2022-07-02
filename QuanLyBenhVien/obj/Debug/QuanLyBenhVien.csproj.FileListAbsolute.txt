@@ -61,3 +61,17 @@ G:\Nam3\HKII\ANBMTT\projectfinal\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyB
 G:\Nam3\HKII\ANBMTT\projectfinal\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.FormDB.User.FormListUser.resources
 G:\Nam3\HKII\ANBMTT\projectfinal\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.FormDB.ShowListView.resources
 G:\Nam3\HKII\ANBMTT\projectfinal\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.FormDB.DetailedView.resources
+G:\Nam3\HKII\ANBMTT\projectfinal\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.FormDB.Admin.Admin_Main.resources
+G:\Nam3\HKII\ANBMTT\projectfinal\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.FormDB.Admin.Admin_Add.resources
+G:\Nam3\HKII\ANBMTT\projectfinal\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.FormDB.Admin.Admin_AddPatient.resources
+G:\Nam3\HKII\ANBMTT\projectfinal\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.FormDB.Admin.Admin_AddCSYT.resources
+G:\Nam3\HKII\ANBMTT\projectfinal\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.FormDB.Admin.Admin_UpdateCSYT.resources
+G:\Nam3\HKII\ANBMTT\projectfinal\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.FormDB.ThanhTra.Main_ThanhTra.resources
+G:\Nam3\HKII\ANBMTT\projectfinal\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.FormDB.ThanhTra.ViewTableTT.resources
+G:\Nam3\HKII\ANBMTT\projectfinal\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.FormDB.BacSi_YTa.MainBSiYTa.resources
+G:\Nam3\HKII\ANBMTT\projectfinal\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.FormDB.BacSi_YTa.ShowBenhNhan_BS.resources
+G:\Nam3\HKII\ANBMTT\projectfinal\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.FormDB.BacSi_YTa.ShowHSBADV_BS.resources
+G:\Nam3\HKII\ANBMTT\projectfinal\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.FormDB.BacSi_YTa.ShowHSBA_BS.resources
+G:\Nam3\HKII\ANBMTT\projectfinal\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.FormDB.BacSi_YTa.ShowInfoBS.resources
+G:\Nam3\HKII\ANBMTT\projectfinal\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.FormDB.Admin.Admin_Audit.resources
+G:\Nam3\HKII\ANBMTT\projectfinal\QuanLyBenhVien\QuanLyBenhVien\obj\Debug\QuanLyBenhVien.FormDB.Admin.Admin_FGA.resources

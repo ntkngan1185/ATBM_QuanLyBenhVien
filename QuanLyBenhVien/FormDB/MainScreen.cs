@@ -41,7 +41,25 @@ namespace QuanLyBenhVien.FormDB
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(this._user);
+            //MessageBox.Show(this._user);
+        }
+
+        private void btn_Audit_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            this.Dispose();
+            Form newForm;
+            newForm = new FormDB.Admin.Admin_Audit(this._user, this._pass);
+            newForm.ShowDialog();
+        }
+
+        private void btn_fga_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            this.Dispose();
+            Form newForm;
+            newForm = new FormDB.Admin.Admin_FGA(this._user, this._pass);
+            newForm.ShowDialog();
         }
     }
 }

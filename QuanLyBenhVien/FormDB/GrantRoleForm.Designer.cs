@@ -29,9 +29,15 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GrantRoleForm));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.cb_All = new System.Windows.Forms.CheckBox();
+            this.dg_grantcol = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.btn_grantRole = new System.Windows.Forms.Button();
             this.cbTableRole = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,10 +47,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lbl_title = new System.Windows.Forms.Label();
-            this.dg_grantcol = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.cb_All = new System.Windows.Forms.CheckBox();
+            this.btn_multiBack = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dg_grantcol)).BeginInit();
             this.SuspendLayout();
@@ -52,6 +55,7 @@
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel1.Controls.Add(this.btn_multiBack);
             this.panel1.Controls.Add(this.cb_All);
             this.panel1.Controls.Add(this.dg_grantcol);
             this.panel1.Controls.Add(this.btn_grantRole);
@@ -67,6 +71,80 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(946, 478);
             this.panel1.TabIndex = 0;
+            // 
+            // cb_All
+            // 
+            this.cb_All.AutoSize = true;
+            this.cb_All.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_All.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(124)))), ((int)(((byte)(115)))));
+            this.cb_All.Location = new System.Drawing.Point(160, 342);
+            this.cb_All.Name = "cb_All";
+            this.cb_All.Size = new System.Drawing.Size(167, 25);
+            this.cb_All.TabIndex = 50;
+            this.cb_All.Text = "Grant All Columns";
+            this.cb_All.UseVisualStyleBackColor = true;
+            this.cb_All.CheckedChanged += new System.EventHandler(this.cb_All_CheckedChanged);
+            // 
+            // dg_grantcol
+            // 
+            this.dg_grantcol.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dg_grantcol.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dg_grantcol.BackgroundColor = System.Drawing.Color.White;
+            this.dg_grantcol.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.dg_grantcol.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(205)))), ((int)(((byte)(178)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(205)))), ((int)(((byte)(178)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dg_grantcol.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dg_grantcol.ColumnHeadersHeight = 35;
+            this.dg_grantcol.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dg_grantcol.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2});
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Orange;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dg_grantcol.DefaultCellStyle = dataGridViewCellStyle4;
+            this.dg_grantcol.EnableHeadersVisualStyles = false;
+            this.dg_grantcol.Location = new System.Drawing.Point(364, 103);
+            this.dg_grantcol.Name = "dg_grantcol";
+            this.dg_grantcol.RowHeadersVisible = false;
+            this.dg_grantcol.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.White;
+            this.dg_grantcol.RowTemplate.Height = 30;
+            this.dg_grantcol.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dg_grantcol.Size = new System.Drawing.Size(553, 246);
+            this.dg_grantcol.TabIndex = 46;
+            // 
+            // Column1
+            // 
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(90)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
+            this.Column1.DefaultCellStyle = dataGridViewCellStyle2;
+            this.Column1.HeaderText = "ColumnName";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(90)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle3.NullValue = false;
+            this.Column2.DefaultCellStyle = dataGridViewCellStyle3;
+            this.Column2.HeaderText = "Option";
+            this.Column2.Name = "Column2";
+            this.Column2.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Column2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
             // btn_grantRole
             // 
@@ -173,72 +251,17 @@
             this.lbl_title.TabIndex = 13;
             this.lbl_title.Text = "GRANT PRIVILEGE FOR ROLE";
             // 
-            // dg_grantcol
+            // btn_multiBack
             // 
-            this.dg_grantcol.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dg_grantcol.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dg_grantcol.BackgroundColor = System.Drawing.Color.White;
-            this.dg_grantcol.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            this.dg_grantcol.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(205)))), ((int)(((byte)(178)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(205)))), ((int)(((byte)(178)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dg_grantcol.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dg_grantcol.ColumnHeadersHeight = 35;
-            this.dg_grantcol.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dg_grantcol.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(90)))), ((int)(((byte)(82)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(72)))), ((int)(((byte)(65)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dg_grantcol.DefaultCellStyle = dataGridViewCellStyle3;
-            this.dg_grantcol.EnableHeadersVisualStyles = false;
-            this.dg_grantcol.Location = new System.Drawing.Point(364, 103);
-            this.dg_grantcol.Name = "dg_grantcol";
-            this.dg_grantcol.RowHeadersVisible = false;
-            this.dg_grantcol.RowTemplate.Height = 30;
-            this.dg_grantcol.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dg_grantcol.Size = new System.Drawing.Size(553, 246);
-            this.dg_grantcol.TabIndex = 46;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "ColumnName";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(90)))), ((int)(((byte)(82)))));
-            dataGridViewCellStyle2.NullValue = false;
-            this.Column2.DefaultCellStyle = dataGridViewCellStyle2;
-            this.Column2.HeaderText = "Option";
-            this.Column2.Name = "Column2";
-            this.Column2.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Column2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // cb_All
-            // 
-            this.cb_All.AutoSize = true;
-            this.cb_All.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cb_All.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(124)))), ((int)(((byte)(115)))));
-            this.cb_All.Location = new System.Drawing.Point(160, 342);
-            this.cb_All.Name = "cb_All";
-            this.cb_All.Size = new System.Drawing.Size(167, 25);
-            this.cb_All.TabIndex = 50;
-            this.cb_All.Text = "Grant All Columns";
-            this.cb_All.UseVisualStyleBackColor = true;
+            this.btn_multiBack.BackColor = System.Drawing.Color.Transparent;
+            this.btn_multiBack.FlatAppearance.BorderSize = 0;
+            this.btn_multiBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_multiBack.Image = ((System.Drawing.Image)(resources.GetObject("btn_multiBack.Image")));
+            this.btn_multiBack.Location = new System.Drawing.Point(737, 19);
+            this.btn_multiBack.Name = "btn_multiBack";
+            this.btn_multiBack.Size = new System.Drawing.Size(75, 45);
+            this.btn_multiBack.TabIndex = 51;
+            this.btn_multiBack.UseVisualStyleBackColor = false;
             // 
             // GrantRoleForm
             // 
@@ -269,8 +292,9 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lbl_title;
         private System.Windows.Forms.DataGridView dg_grantcol;
+        private System.Windows.Forms.CheckBox cb_All;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewCheckBoxColumn Column2;
-        private System.Windows.Forms.CheckBox cb_All;
+        private System.Windows.Forms.Button btn_multiBack;
     }
 }

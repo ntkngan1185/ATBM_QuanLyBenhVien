@@ -37,15 +37,15 @@
             this.btn_listTable = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panelDB = new System.Windows.Forms.Panel();
             this.btn_back = new System.Windows.Forms.Button();
+            this.panelDB = new System.Windows.Forms.Panel();
             this.panelUIMenu.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelUIMenu
             // 
-            this.panelUIMenu.BackColor = System.Drawing.Color.Teal;
+            this.panelUIMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(90)))), ((int)(((byte)(82)))));
             this.panelUIMenu.Controls.Add(this.button5);
             this.panelUIMenu.Controls.Add(this.btn_showlistview);
             this.panelUIMenu.Controls.Add(this.btn_view);
@@ -162,14 +162,6 @@
             this.panel1.Size = new System.Drawing.Size(193, 68);
             this.panel1.TabIndex = 0;
             // 
-            // panelDB
-            // 
-            this.panelDB.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDB.Location = new System.Drawing.Point(193, 0);
-            this.panelDB.Name = "panelDB";
-            this.panelDB.Size = new System.Drawing.Size(715, 502);
-            this.panelDB.TabIndex = 2;
-            // 
             // btn_back
             // 
             this.btn_back.BackColor = System.Drawing.Color.Transparent;
@@ -182,6 +174,14 @@
             this.btn_back.TabIndex = 49;
             this.btn_back.UseVisualStyleBackColor = false;
             this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
+            // 
+            // panelDB
+            // 
+            this.panelDB.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelDB.Location = new System.Drawing.Point(193, 0);
+            this.panelDB.Name = "panelDB";
+            this.panelDB.Size = new System.Drawing.Size(715, 502);
+            this.panelDB.TabIndex = 2;
             // 
             // MainDatabase
             // 

@@ -130,6 +130,78 @@
     <Compile Include="FormDB\AddTable.Designer.cs">
       <DependentUpon>AddTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDB\Admin\Admin_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDB\Admin\Admin_Add.Designer.cs">
+      <DependentUpon>Admin_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDB\Admin\Admin_AddCSYT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDB\Admin\Admin_AddCSYT.Designer.cs">
+      <DependentUpon>Admin_AddCSYT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDB\Admin\Admin_AddPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDB\Admin\Admin_AddPatient.Designer.cs">
+      <DependentUpon>Admin_AddPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDB\Admin\Admin_Audit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDB\Admin\Admin_Audit.Designer.cs">
+      <DependentUpon>Admin_Audit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDB\Admin\Admin_FGA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDB\Admin\Admin_FGA.Designer.cs">
+      <DependentUpon>Admin_FGA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDB\Admin\Admin_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDB\Admin\Admin_Main.Designer.cs">
+      <DependentUpon>Admin_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDB\Admin\Admin_UpdateCSYT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDB\Admin\Admin_UpdateCSYT.Designer.cs">
+      <DependentUpon>Admin_UpdateCSYT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDB\BacSi_Yta\MainBSiYTa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDB\BacSi_Yta\MainBSiYTa.designer.cs">
+      <DependentUpon>MainBSiYTa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDB\BacSi_Yta\ShowBenhNhan_BS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDB\BacSi_Yta\ShowBenhNhan_BS.designer.cs">
+      <DependentUpon>ShowBenhNhan_BS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDB\BacSi_Yta\ShowHSBADV_BS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDB\BacSi_Yta\ShowHSBADV_BS.designer.cs">
+      <DependentUpon>ShowHSBADV_BS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDB\BacSi_Yta\ShowHSBA_BS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDB\BacSi_Yta\ShowHSBA_BS.designer.cs">
+      <DependentUpon>ShowHSBA_BS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDB\BacSi_Yta\ShowInfoBS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDB\BacSi_Yta\ShowInfoBS.designer.cs">
+      <DependentUpon>ShowInfoBS.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDB\DetailedView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -190,6 +262,18 @@
     <Compile Include="FormDB\ShowListTable.Designer.cs">
       <DependentUpon>ShowListTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDB\ThanhTra\Main_ThanhTra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDB\ThanhTra\Main_ThanhTra.designer.cs">
+      <DependentUpon>Main_ThanhTra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDB\ThanhTra\ViewTableTT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDB\ThanhTra\ViewTableTT.designer.cs">
+      <DependentUpon>ViewTableTT.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDB\User\FormAddUser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -249,6 +333,42 @@
     <EmbeddedResource Include="FormDB\AddTable.resx">
       <DependentUpon>AddTable.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormDB\Admin\Admin_Add.resx">
+      <DependentUpon>Admin_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDB\Admin\Admin_AddCSYT.resx">
+      <DependentUpon>Admin_AddCSYT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDB\Admin\Admin_AddPatient.resx">
+      <DependentUpon>Admin_AddPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDB\Admin\Admin_Audit.resx">
+      <DependentUpon>Admin_Audit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDB\Admin\Admin_FGA.resx">
+      <DependentUpon>Admin_FGA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDB\Admin\Admin_Main.resx">
+      <DependentUpon>Admin_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDB\Admin\Admin_UpdateCSYT.resx">
+      <DependentUpon>Admin_UpdateCSYT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDB\BacSi_Yta\MainBSiYTa.resx">
+      <DependentUpon>MainBSiYTa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDB\BacSi_Yta\ShowBenhNhan_BS.resx">
+      <DependentUpon>ShowBenhNhan_BS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDB\BacSi_Yta\ShowHSBADV_BS.resx">
+      <DependentUpon>ShowHSBADV_BS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDB\BacSi_Yta\ShowHSBA_BS.resx">
+      <DependentUpon>ShowHSBA_BS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDB\BacSi_Yta\ShowInfoBS.resx">
+      <DependentUpon>ShowInfoBS.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDB\DetailedView.resx">
       <DependentUpon>DetailedView.cs</DependentUpon>
     </EmbeddedResource>
@@ -278,6 +398,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormDB\ShowListTable.resx">
       <DependentUpon>ShowListTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDB\ThanhTra\Main_ThanhTra.resx">
+      <DependentUpon>Main_ThanhTra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDB\ThanhTra\ViewTableTT.resx">
+      <DependentUpon>ViewTableTT.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormDB\User\FormAddUser.resx">
       <DependentUpon>FormAddUser.cs</DependentUpon>

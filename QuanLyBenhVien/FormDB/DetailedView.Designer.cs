@@ -129,6 +129,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.lbl_title);
             this.Name = "DetailedView";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DetailedView";
             this.Load += new System.EventHandler(this.DetailedView_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dg_detailview)).EndInit();

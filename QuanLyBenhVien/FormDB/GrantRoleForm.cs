@@ -367,5 +367,13 @@ namespace QuanLyBenhVien.FormDB
                 Console.WriteLine("#### ERROR: " + ex.Message);
             }
         }
+
+        private void cb_All_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cb_All.Checked == true)
+            {
+
+            }
+        }
     }
 }

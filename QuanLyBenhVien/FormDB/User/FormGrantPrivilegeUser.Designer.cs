@@ -37,15 +37,16 @@ namespace QuanLyBenhVien.FormDB.User
             // 
             // btnGrantRoleUser
             // 
-            this.btnGrantRoleUser.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
+            this.btnGrantRoleUser.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnGrantRoleUser.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnGrantRoleUser.BackColor = System.Drawing.Color.Teal;
             this.btnGrantRoleUser.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.btnGrantRoleUser.ForeColor = System.Drawing.Color.White;
-            this.btnGrantRoleUser.Location = new System.Drawing.Point(236, 245);
+            this.btnGrantRoleUser.Location = new System.Drawing.Point(177, 199);
+            this.btnGrantRoleUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnGrantRoleUser.Name = "btnGrantRoleUser";
-            this.btnGrantRoleUser.Size = new System.Drawing.Size(261, 47);
+            this.btnGrantRoleUser.Size = new System.Drawing.Size(196, 38);
             this.btnGrantRoleUser.TabIndex = 9;
             this.btnGrantRoleUser.Text = "Grant role to user";
             this.btnGrantRoleUser.UseVisualStyleBackColor = false;
@@ -53,15 +54,16 @@ namespace QuanLyBenhVien.FormDB.User
             // 
             // btnGrantPrivilegeUser
             // 
-            this.btnGrantPrivilegeUser.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
+            this.btnGrantPrivilegeUser.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnGrantPrivilegeUser.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnGrantPrivilegeUser.BackColor = System.Drawing.Color.Teal;
             this.btnGrantPrivilegeUser.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.btnGrantPrivilegeUser.ForeColor = System.Drawing.Color.White;
-            this.btnGrantPrivilegeUser.Location = new System.Drawing.Point(236, 126);
+            this.btnGrantPrivilegeUser.Location = new System.Drawing.Point(177, 102);
+            this.btnGrantPrivilegeUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnGrantPrivilegeUser.Name = "btnGrantPrivilegeUser";
-            this.btnGrantPrivilegeUser.Size = new System.Drawing.Size(261, 47);
+            this.btnGrantPrivilegeUser.Size = new System.Drawing.Size(196, 38);
             this.btnGrantPrivilegeUser.TabIndex = 8;
             this.btnGrantPrivilegeUser.Text = "Grant privilege to user";
             this.btnGrantPrivilegeUser.UseVisualStyleBackColor = false;
@@ -69,19 +71,22 @@ namespace QuanLyBenhVien.FormDB.User
             // 
             // panelGrantPrivilege
             // 
+            this.panelGrantPrivilege.BackColor = System.Drawing.Color.White;
             this.panelGrantPrivilege.Controls.Add(this.btnGrantPrivilegeUser);
             this.panelGrantPrivilege.Controls.Add(this.btnGrantRoleUser);
-            this.panelGrantPrivilege.Location = new System.Drawing.Point(-4, 0);
+            this.panelGrantPrivilege.Location = new System.Drawing.Point(-3, 0);
+            this.panelGrantPrivilege.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelGrantPrivilege.Name = "panelGrantPrivilege";
-            this.panelGrantPrivilege.Size = new System.Drawing.Size(806, 449);
+            this.panelGrantPrivilege.Size = new System.Drawing.Size(604, 365);
             this.panelGrantPrivilege.TabIndex = 10;
             // 
             // FormGrantPrivilegeUser
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.panelGrantPrivilege);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormGrantPrivilegeUser";
             this.Text = "FormGrantPrivilegeUser";
             this.Load += new System.EventHandler(this.FormGrantPrivilegeUser_Load);

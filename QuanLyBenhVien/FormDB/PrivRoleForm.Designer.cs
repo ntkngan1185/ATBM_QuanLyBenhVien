@@ -30,6 +30,7 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PrivRoleForm));
             this.panel2 = new System.Windows.Forms.Panel();
             this.lbl_title = new System.Windows.Forms.Label();
             this.dg_listprivrole = new System.Windows.Forms.DataGridView();
@@ -37,6 +38,7 @@
             this.lbl_selectedRole = new System.Windows.Forms.Label();
             this.btn_addmorePriv = new System.Windows.Forms.Button();
             this.btn_revokeRole = new System.Windows.Forms.Button();
+            this.btn_multiBack = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dg_listprivrole)).BeginInit();
             this.SuspendLayout();
             // 
@@ -147,12 +149,25 @@
             this.btn_revokeRole.UseVisualStyleBackColor = false;
             this.btn_revokeRole.Click += new System.EventHandler(this.btn_revokeRole_Click);
             // 
+            // btn_multiBack
+            // 
+            this.btn_multiBack.BackColor = System.Drawing.Color.Transparent;
+            this.btn_multiBack.FlatAppearance.BorderSize = 0;
+            this.btn_multiBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_multiBack.Image = ((System.Drawing.Image)(resources.GetObject("btn_multiBack.Image")));
+            this.btn_multiBack.Location = new System.Drawing.Point(749, 12);
+            this.btn_multiBack.Name = "btn_multiBack";
+            this.btn_multiBack.Size = new System.Drawing.Size(75, 45);
+            this.btn_multiBack.TabIndex = 49;
+            this.btn_multiBack.UseVisualStyleBackColor = false;
+            // 
             // PrivRoleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(963, 531);
+            this.Controls.Add(this.btn_multiBack);
             this.Controls.Add(this.btn_revokeRole);
             this.Controls.Add(this.btn_addmorePriv);
             this.Controls.Add(this.lbl_selectedRole);
@@ -178,5 +193,6 @@
         private System.Windows.Forms.Label lbl_selectedRole;
         private System.Windows.Forms.Button btn_addmorePriv;
         private System.Windows.Forms.Button btn_revokeRole;
+        private System.Windows.Forms.Button btn_multiBack;
     }
 }
